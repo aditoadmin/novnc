@@ -16,4 +16,4 @@ RUN mkdir -p /novnc /novnc/designer /websockify && \
  rm -rf /tmp && \
  pip install numpy
 
-CMD /bin/sh /websockify/run --web /novnc/ $WEBSERVER_PORT $VNC_HOST:$VNC_PORT $ARGS
+CMD /bin/sh /websockify/run --web /novnc/ $WEBSERVER_HOST:$WEBSERVER_PORT $VNC_HOST:$VNC_PORT $ARGS
