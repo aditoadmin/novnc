@@ -6,10 +6,15 @@ Websockify - https://github.com/novnc/websockify
 NoVNC https://github.com/novnc/noVNC
 
 # ENVs
+
 $WEBSERVER_HOST default is 0.0.0.0
+
 $WEBSERVER_PORT default is 8080
+
 $VNC_HOST default is localhost
+
 $VNC_PORT default is 5900
+
 $ARGS 
 
 # Command
