@@ -1,4 +1,6 @@
 # novnc
+GitHub repository: https://github.com/aditosoftware/novnc
+
 DockerHub repository: https://hub.docker.com/repository/docker/adito/novnc
 
 based on python:slim-buster - https://hub.docker.com/_/python
@@ -20,4 +22,15 @@ $VNC_PORT default is 5900
 $ARGS 
 
 # Command
+
 /bin/sh /websockify/run --web /novnc/ $WEBSERVER_HOST:$WEBSERVER_PORT $VNC_HOST:$VNC_PORT $ARGS
+
+# paths to publish
+
+/websockify
+
+/designer
+
+# 
+
+http://localhost:8080/designer/vnc.html
