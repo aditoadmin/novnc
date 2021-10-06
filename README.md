@@ -20,4 +20,4 @@ $VNC_PORT default is 5900
 $ARGS 
 
 # Command
-/bin/sh /websockify/run --web /novnc/ $WEBSERVER_PORT $VNC_HOST:$VNC_PORT $ARGS
+/bin/sh /websockify/run --web /novnc/ $WEBSERVER_HOST:$WEBSERVER_PORT $VNC_HOST:$VNC_PORT $ARGS
