@@ -2,8 +2,10 @@
 DockerHub repository: https://hub.docker.com/repository/docker/adito/novnc
 
 based on python:slim-buster - https://hub.docker.com/_/python
+
 Websockify - https://github.com/novnc/websockify
-NoVNC https://github.com/novnc/noVNC
+
+NoVNC - https://github.com/novnc/noVNC
 
 # ENVs
 
